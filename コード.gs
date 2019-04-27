@@ -3,7 +3,7 @@
 その時間の20分前くらいにslackに通知する
 ファイル→プロジェクトのプロパティ→スクリプトのプロパティ
 ・verifyToken: Outgoing Webhooksのトークン．　動かない可能性がある
-・slackToken: slackAPIトークン
+・slackToken: slackトークン
 */
 
 var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
