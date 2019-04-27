@@ -110,7 +110,7 @@ function postSlackMessage(toname, message){
 //    "username": username, //BOTの名前
 //  };
   
-  UrlFetchApp.fetch("https://slack.com/api/chat.postMessage?token="+token+"&channel="+toname+"&text="+message+"&username="+username+"&pretty=1");
+  UrlFetchApp.fetch("https://slack.com/api/chat.postMessage?token="+slack_token+"&channel="+toname+"&text="+message+"&username="+username+"&pretty=1");
 }
 
 
